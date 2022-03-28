@@ -1,7 +1,7 @@
 const AlbumImage = ({ src, children }) => ( <
     div >
     <
-    img src = { src }
+    image src = { src }
     width = "300"
     height = "300"
     className = "rotate" / > { children } <
@@ -11,13 +11,13 @@ const AlbumImage = ({ src, children }) => ( <
 const AlbumDesc = (props) => < h2 > Album: { props.name } < /h2>;
 
 const AlbumName = ({ name, artist, children }) => ( <
-    div classname = "albumName" >
+    div className = "AlbumName" >
     <
     p > { name } < /p> <
     p > { artist } < /p> { children } <
     /div>
 );
 
-const ButtonUrl = (url) => < button > < a href = { url } > Select < /a></button > ;
+const ButtonUrl = (url) => < button > < a href = { url } > select < /a></button > ;
 
 export { AlbumImage, AlbumDesc, AlbumName, ButtonUrl };
