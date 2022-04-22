@@ -1,4 +1,4 @@
-import './app.css'
+import './App.css'
 import data from '../alat/data.js'
 import { GiPlayButton, GiPreviousButton, GiNextButton } from "react-icons/gi";
 
